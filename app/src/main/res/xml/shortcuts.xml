@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_mic"
+        android:shortcutId="voice_open"
+        android:shortcutLongLabel="@string/shortcut_voice_long"
+        android:shortcutShortLabel="@string/shortcut_voice_short">
+        <intent
+            android:action="com.chinmay.voicefiles.VOICE_OPEN"
+            android:targetClass="com.chinmay.voicefiles.MainActivity"
+            android:targetPackage="com.chinmay.voicefiles" />
+    </shortcut>
+</shortcuts>
